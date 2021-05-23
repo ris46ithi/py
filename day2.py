@@ -8,3 +8,4 @@ print(res,bin(res))
 res = value & mak
 print(res,bin(res))
 ###output 0b101000 #### 
+## day 2 completed ##
