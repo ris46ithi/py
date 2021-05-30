@@ -22,7 +22,8 @@ sys.getsizeof(a)
 ######input user date ######
 user_data = input("set value: ")
 print (user_data)
-type(user_data) ###user input data always be String#
+if __name__ == '__main__':# for code security
+    type(user_data) ###user input data always be String#
 ##########################
 #####4 Bit Values #######
 
