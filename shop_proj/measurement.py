@@ -19,5 +19,5 @@ product=input("")
 mes = str(input("kilo ? :"))
 price =  int(input("price? :"))
 unit = ['kg', 'L', 'ml', 'grams', 'pac']
-a = {product: ( mes+unit[0], price)}
+a = {product : ( mes+unit[0], price)}
 print(a)
